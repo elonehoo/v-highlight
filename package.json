@@ -2,7 +2,7 @@
   "name": "@v-highlight/monorepo",
   "private": "true",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Provide highlight.js instruction operation for Vue",
   "author": "Elone Hoo <hi@elonehoo.me>",
   "license": "MIT",

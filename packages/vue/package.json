@@ -1,6 +1,6 @@
 {
   "name": "@v-highlight/vue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Provide highlight.js instruction operation for Vue",
   "exports": {
     ".": {
