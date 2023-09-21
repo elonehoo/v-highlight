@@ -1,8 +1,8 @@
 {
   "name": "@v-highlight/monorepo",
-  "private": "true",
   "type": "module",
   "version": "0.0.2",
+  "private": "true",
   "description": "Provide highlight.js instruction operation for Vue",
   "author": "Elone Hoo <hi@elonehoo.me>",
   "license": "MIT",
@@ -21,8 +21,6 @@
     "build": "rimraf packages/*/dist && pnpm run --filter \"./packages/**\" -r build",
     "play:vue": "pnpm -C playgrounds/vue run dev",
     "stale": "stale-del -u",
-    "test": "vitest",
-    "ui": "vitest --ui",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc --noEmit",

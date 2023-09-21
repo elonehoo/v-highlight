@@ -5,7 +5,7 @@ export default defineBuildConfig({
     'src/index',
   ],
   externals: [
-    'vue','highlight.js'
+    'vue', 'highlight.js',
   ],
   clean: false,
   declaration: true,

@@ -17,11 +17,11 @@ pnpm install -D @v-highlight/vue highlight.js
 ```ts
 //main.ts
 import { createApp } from 'vue'
-import App from './App.vue'
 import { VueHighlight } from '@v-highlight/vue'
+import App from './App.vue'
 import 'highlight.js/styles/agate.css'
 
-const app =createApp(App)
+const app = createApp(App)
 
 VueHighlight.install(app)
 
@@ -31,7 +31,8 @@ app.mount('#app')
 
 ```vue
 <script setup lang="ts">
-import {ref} from 'vue'
+import { ref } from 'vue'
+
 const code = ref('<div>111</div>')
 </script>
 

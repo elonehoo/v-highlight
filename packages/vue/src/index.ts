@@ -9,23 +9,24 @@ const VueHighlight = {
   },
 }
 
-function highlight(el:HTMLElement, binding:any) {
+function highlight(el: HTMLElement, binding: any) {
   if (el.tagName !== 'CODE') {
-      let blocks = el.querySelectorAll('code');
+    const blocks = el.querySelectorAll('code')
 
-      blocks.forEach((block) => {
-          highlight(block, binding);
-      })
-  } else {
-      if (typeof binding.value === 'string') {
-          el.textContent = binding.value;
-      }
+    blocks.forEach((block) => {
+      highlight(block, binding)
+    })
+  }
+  else {
+    if (typeof binding.value === 'string') 
+      el.textContent = binding.value
+      
 
-      hljs.highlightElement(el);
+    hljs.highlightElement(el)
   }
 }
 
 export {
   VueHighlight,
-  highlight
+  highlight,
 }
