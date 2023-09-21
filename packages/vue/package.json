@@ -2,11 +2,23 @@
   "name": "@v-highlight/vue",
   "version": "0.0.2",
   "description": "Provide highlight.js instruction operation for Vue",
+  "author": "Elone Hoo <hi@elonehoo.me>",
+  "license": "MIT",
+  "homepage": "https://github.com/elonehoo/v-highlight",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elonehoo/v-highlight"
+  },
+  "bugs": "https://github.com/elonehoo/v-highlight/issues",
+  "keywords": [
+    "highlight.js",
+    "Vue.js"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.mjs"
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
     },
     "./*": "./*"
   },
@@ -17,25 +29,13 @@
     "dist",
     "*.d.ts"
   ],
-  "keywords": [
-    "highlight.js",
-    "Vue.js"
-  ],
-  "author": "Elone Hoo <hi@elonehoo.me>",
-  "license": "MIT",
-  "homepage": "https://github.com/elonehoo/v-highlight",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/elonehoo/v-highlight"
-  },
-  "bugs": "https://github.com/elonehoo/v-highlight/issues",
   "scripts": {
     "build": "unbuild",
     "dev": "unbuild --stub",
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
-    "vue": "^3.3.4",
-    "highlight.js": "^11.8.0"
+    "highlight.js": "^11.8.0",
+    "vue": "^3.3.4"
   }
 }

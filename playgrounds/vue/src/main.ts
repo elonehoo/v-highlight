@@ -1,10 +1,10 @@
 import { createApp } from 'vue'
 import './style.css'
-import App from './App.vue'
 import { VueHighlight } from '@v-highlight/vue'
+import App from './App.vue'
 import 'highlight.js/styles/agate.css'
 
-const app =createApp(App)
+const app = createApp(App)
 
 VueHighlight.install(app)
 
