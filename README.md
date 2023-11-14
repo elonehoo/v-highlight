@@ -15,7 +15,7 @@ pnpm install -D @v-highlight/vue highlight.js
 ## Usage
 
 ```ts
-//main.ts
+// main.ts
 import { createApp } from 'vue'
 import { VueHighlight } from '@v-highlight/vue'
 import App from './App.vue'
@@ -26,7 +26,6 @@ const app = createApp(App)
 VueHighlight.install(app)
 
 app.mount('#app')
-
 ```
 
 ```vue

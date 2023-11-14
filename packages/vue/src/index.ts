@@ -18,9 +18,8 @@ function highlight(el: HTMLElement, binding: any) {
     })
   }
   else {
-    if (typeof binding.value === 'string') 
+    if (typeof binding.value === 'string')
       el.textContent = binding.value
-      
 
     hljs.highlightElement(el)
   }
