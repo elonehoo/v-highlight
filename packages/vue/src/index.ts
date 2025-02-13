@@ -26,6 +26,6 @@ function highlight(el: HTMLElement, binding: any) {
 }
 
 export {
-  VueHighlight,
   highlight,
+  VueHighlight,
 }

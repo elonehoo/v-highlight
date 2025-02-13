@@ -15,9 +15,9 @@ pnpm install -D @v-highlight/vue highlight.js
 ## Usage
 
 ```ts
+import { VueHighlight } from '@v-highlight/vue'
 // main.ts
 import { createApp } from 'vue'
-import { VueHighlight } from '@v-highlight/vue'
 import App from './App.vue'
 import 'highlight.js/styles/agate.css'
 
