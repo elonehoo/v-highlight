@@ -27,18 +27,18 @@
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.17.0",
-    "@types/node": "^22.16.5",
+    "@antfu/eslint-config": "^4.19.0",
+    "@types/node": "^22.17.1",
     "@vitest/ui": "^3.2.4",
-    "bumpp": "^10.2.0",
-    "eslint": "^9.31.0",
+    "bumpp": "^10.2.2",
+    "eslint": "^9.33.0",
     "highlight.js": "^11.11.1",
     "rimraf": "^6.0.1",
     "statl-del": "^0.0.4",
-    "typescript": "^5.8.3",
-    "unbuild": "^3.5.0",
-    "vite": "^7.0.5",
+    "typescript": "^5.9.2",
+    "unbuild": "^3.6.0",
+    "vite": "^7.1.1",
     "vitest": "^3.2.4",
-    "vue": "^3.5.17"
+    "vue": "^3.5.18"
   }
 }
