@@ -27,7 +27,7 @@
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.19.0",
+    "@antfu/eslint-config": "^5.2.1",
     "@types/node": "^22.17.1",
     "@vitest/ui": "^3.2.4",
     "bumpp": "^10.2.2",
