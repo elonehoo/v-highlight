@@ -30,7 +30,7 @@
     "@antfu/eslint-config": "^6.2.0",
     "@types/node": "^24.10.1",
     "@vitest/ui": "^4.0.14",
-    "bumpp": "^10.3.2",
+    "bumpp": "^11.0.0",
     "eslint": "^9.39.1",
     "highlight.js": "^11.11.1",
     "rimraf": "^6.1.2",
