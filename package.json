@@ -35,7 +35,7 @@
     "highlight.js": "^11.11.1",
     "rimraf": "^6.1.2",
     "statl-del": "^0.0.4",
-    "typescript": "^5.9.3",
+    "typescript": "^6.0.2",
     "unbuild": "^3.6.1",
     "vite": "^8.0.0",
     "vitest": "^4.0.14",
