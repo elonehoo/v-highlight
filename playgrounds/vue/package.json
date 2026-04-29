@@ -12,7 +12,7 @@
     "@v-highlight/vue": "workspace:*"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^6.0.2",
-    "vue-tsc": "^3.1.5"
+    "@vitejs/plugin-vue": "^6.0.6",
+    "vue-tsc": "^3.2.7"
   }
 }
