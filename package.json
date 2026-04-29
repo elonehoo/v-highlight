@@ -31,7 +31,7 @@
     "@types/node": "^24.10.1",
     "@vitest/ui": "^4.0.14",
     "bumpp": "^11.0.0",
-    "eslint": "^9.39.1",
+    "eslint": "^10.2.1",
     "highlight.js": "^11.11.1",
     "rimraf": "^6.1.2",
     "statl-del": "^0.0.4",
