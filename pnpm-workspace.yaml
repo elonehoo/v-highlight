@@ -1,4 +1,14 @@
+# pnpm 11+ reads this from the workspace file; .npmrc is auth/registry only.
+ignoreWorkspaceRootCheck: true
+minimumReleaseAgeExcludePrune: true
+trustPolicy: no-downgrade
+shellEmulator: true
+
 packages:
   - playgrounds/*
   - examples/*
   - packages/*
+
+# pnpm 11+ refuses unreviewed dependency build scripts (strictDepBuilds).
+allowBuilds:
+  esbuild: true
