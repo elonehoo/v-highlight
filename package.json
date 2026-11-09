@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.2",
   "private": "true",
-  "packageManager": "pnpm@12.16.1",
+  "packageManager": "pnpm@12.18.0",
   "description": "Provide highlight.js instruction operation for Vue",
   "author": "Elone Hoo <hi@elonehoo.me>",
   "license": "MIT",
@@ -31,16 +31,16 @@
     "@antfu/eslint-config": "^9.5.1",
     "@types/node": "^26.6.6",
     "@typescript/native": "npm:typescript@^7.0.2",
-    "@vitest/ui": "^5.0.5",
+    "@vitest/ui": "^5.1.0",
     "bumpp": "^12.3.0",
     "eslint": "^10.14.0",
     "highlight.js": "^11.12.0",
-    "rimraf": "^6.1.3",
+    "rimraf": "^6.1.4",
     "statl-del": "^0.0.4",
     "typescript": "npm:@typescript/typescript6@^6.0.2",
     "unbuild": "^3.6.1",
-    "vite": "^8.3.5",
-    "vitest": "^5.0.5",
-    "vue": "^3.5.44"
+    "vite": "^8.3.6",
+    "vitest": "^5.1.0",
+    "vue": "^3.5.45"
   }
 }
